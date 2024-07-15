@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+.ClaIX {
+    display: flex;
+    margin-top: 1cm;
+    padding: 15px;
+    gap: 1.5cm;
+    background-color: #2b2c28;
+}
+
+.img {
+    height: 7cm;
+    width: 7cm;
+}
+
+.class {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background-color: white;
+    cursor: pointer;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.Sub {
+    font-size: 32px;
+
+}
+
+.Nine {
+    font-size: 26px;
+}
+
+.Level {
+    font-size: 20px;
+}
+
+.button {
+    height: 1cm;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 30px;
+    border-radius: 5px;
+    display: flex;
+    text-decoration: none;
+    border: 2px solid black;
+    width: 50%;
+    padding: 5px;
+    color: black;
+}
+
+.class:hover {
+    box-shadow: #2eb2effd 0px 22px 70px 4px;
+}
+
+.arrow {
+    display: flex;
+    border: 2px solid green;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+}
+
+.arrow:hover {
+    background-color: aquamarine;
+    color: black;
+}
+
+.arr {
+    font-size: 30px;
+}

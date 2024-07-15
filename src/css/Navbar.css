@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+
+.Logo {
+    height: 1.5cm;
+    width: 1.5cm;
+}
+
+.a {
+    display: flex;
+    background-color: black;
+    padding: 15px;
+    gap: 22cm;
+}
+
+.b {
+    color: white;
+}
+
+.c {
+    display: flex;
+    color: yellowgreen;
+    gap: 2cm;
+}
+
+.s {
+    font-family: "Teko", sans-serif;
+    cursor: pointer;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    color: yellowgreen;
+    text-decoration: none;
+}
+
+.s:hover {
+    background-color: rgb(206, 127, 127);
+    color: red;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}

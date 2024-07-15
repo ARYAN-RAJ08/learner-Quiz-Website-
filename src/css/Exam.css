@@ -1,0 +1,48 @@
+.Ale {
+    display: none;
+    margin: 0;
+    padding: 0;
+    padding: 10px;
+    background-color: #c9b6b665;
+    flex-direction: column;
+}
+
+.ab {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    gap: 30cm;
+    padding: 15px;
+    border-bottom: 2px solid black;
+
+}
+
+.ac {
+    display: flex;
+    flex-direction: column;
+}
+
+.ad {
+    display: flex;
+    flex-direction: column;
+}
+
+.Q {
+    padding: 20px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    margin-top: 1cm;
+    background-color: white;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.option {
+    margin-top: 0.5cm;
+}
+
+.opch {
+    display: flex;
+    gap: 0.3cm;
+}

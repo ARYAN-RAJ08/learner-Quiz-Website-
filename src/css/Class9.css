@@ -1,0 +1,64 @@
+.Container {
+    display: flex;
+    gap: 0.5cm;
+}
+
+.ScrolBody {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4cm;
+}
+
+.FilterMethod {
+    display: flex;
+    background-color: #c4bebe;
+    /* width: 30%; */
+}
+
+.FilterBySubject {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid grey;
+    padding: 15px;
+    height: 0.5cm;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.SubjectAndIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.down {
+    transition: .5s;
+}
+
+.changeHeight {
+    height: 8cm;
+}
+
+.rotateElement {
+    transform: rotate(-180deg);
+}
+
+.dataAndCheck {
+    margin-top: 0.3cm;
+}
+
+.data {
+    display: flex;
+    gap: 0.2cm;
+}
+
+.el {
+    font-size: 20px;
+}
+
+.ch {
+    height: 0.5cm;
+    width: 0.5cm;
+}

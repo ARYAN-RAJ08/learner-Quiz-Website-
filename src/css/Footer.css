@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pacifico&display=swap');
+
+.footer {
+    background-color: #AEFEFF;
+    color: #1E1145;
+    user-select: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 2cm;
+}
+
+.footer-footer {
+    background-color: #AEFEFF;
+    display: flex;
+    gap: 6cm;
+    padding: 15px;
+    justify-content: center;
+}
+
+.lang {
+    display: flex;
+    gap: 0.2cm;
+}
+
+.term {
+    text-decoration: none;
+    color: white;
+}
+
+.soccc {
+    display: flex;
+    gap: 0.5cm;
+}
+
+.ll {
+    cursor: pointer;
+}
+
+.footer-header {
+    padding: 15px;
+}
+
+table {
+    text-align: left;
+    border-spacing: 1cm;
+}
+
+th {
+    text-align: left;
+    text-transform: uppercase;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 25px;
+}
+
+td {
+    cursor: pointer;
+    font-family: "Concert One", sans-serif;
+    font-size: 25px;
+}
+
+td:hover {
+    text-decoration: underline;
+}
