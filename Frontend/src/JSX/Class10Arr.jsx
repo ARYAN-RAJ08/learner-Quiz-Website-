@@ -1,4 +1,4 @@
-import SourceIX from '../Images/TestNine.png';
+import SourceIX from '../Images/TestTen.png';
 export const Class10Arr = [
 
     {

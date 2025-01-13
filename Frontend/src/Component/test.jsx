@@ -46,6 +46,7 @@ export default function Test() {
             </div>
             <div className="Ble">
                 <div className="ble">
+                <div>Marks: 6/15</div>
                     <i class="fa-solid fa-circle-check check"></i>
                     <div className="thank">ThankYou</div>
                     <Link to='/'><i class="fa-solid fa-house hme"></i></Link>

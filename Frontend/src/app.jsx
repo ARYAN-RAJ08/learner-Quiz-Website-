@@ -10,6 +10,8 @@ import ClassXII from "./Component/Class12";
 import Test from "./Component/test";
 import LogIn from "./Component/Login";
 import SingUp from "./Component/SingUpS";
+import Contact from './Component/Contact'
+import Error from './Component/Error'
 
 export default function App() {
     const NavbarRouter = createBrowserRouter([
@@ -25,6 +27,13 @@ export default function App() {
             path: "/aboutus",
             element: <>
                 <h1>home</h1>
+            </>
+        },
+        {
+            path: "/contactus",
+            element: <>
+                <Navbar />
+                <Contact />
             </>
         },
         {
@@ -76,6 +85,12 @@ export default function App() {
             path: "/test",
             element: <>
                 <Test />
+            </>
+        },
+        {
+            path: "*",
+            element: <>
+                <Error />
             </>
         }
     ])
